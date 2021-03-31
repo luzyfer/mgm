@@ -1,0 +1,3 @@
+Sitemap: http://www.flab.cat/clients/mgm/sitemap.xml
+User-agent: *
+Disallow:

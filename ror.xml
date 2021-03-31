@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://www.flab.cat/clients/mgm/</title>
+  <link>http://www.flab.cat/clients/mgm/</link>
+
+<item>
+     <link>http://www.flab.cat/clients/mgm/</link>
+     <title>Home</title>
+     <description>Home</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/quienessomos.html</link>
+     <title>Quienes Somos</title>
+     <description>Website Maker Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/calculadora.html</link>
+     <title>Calculadora</title>
+     <description>Web Builder Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/aerotermia.html</link>
+     <title>Productos Aerotermia</title>
+     <description>Site Builder Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/biomasa.html</link>
+     <title>Productos Biomasa</title>
+     <description>Site Builder Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/certificacion.html</link>
+     <title>Productos Certificación Energética</title>
+     <description>Site Builder Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/energiafotovoltaica.html</link>
+     <title>Productos Energía Fotovoltaica</title>
+     <description>Site Builder Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/energiatermica.html</link>
+     <title>Productos Energía Solar Térmica</title>
+     <description>Site Builder Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/iluminacionLED.html</link>
+     <title>Productos Iluminación LED</title>
+     <description>Site Builder Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/smartflower.html</link>
+     <title>Productos Smart Flower</title>
+     <description>Website Generator Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/termoestufas.html</link>
+     <title>Productos Termo Estufas</title>
+     <description>Site Builder Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/contacto.html</link>
+     <title>Contacto</title>
+     <description>Site Creator Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/proyectos.html</link>
+     <title>Proyectos</title>
+     <description>Web Page Generator Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/rsc.html</link>
+     <title>RSC</title>
+     <description>Website Builder Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/financiacion.html</link>
+     <title>Financiacion</title>
+     <description>Web Page Builder Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/mantenimiento.html</link>
+     <title>Mantenimiento</title>
+     <description>Web Page Maker Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/comunidades.html</link>
+     <title>Comunidades</title>
+     <description>Site Builder Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/sitemap.html</link>
+     <title>SiteMap</title>
+     <description>Web Generator Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/productos.html</link>
+     <title>Productos</title>
+     <description>Web Page Builder Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.flab.cat/clients/mgm/privacy.html</link>
+     <title>Privacy</title>
+     <description>Website Builder Description</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

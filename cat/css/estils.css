@@ -1,0 +1,671 @@
+
+@import url('https://fonts.googleapis.com/css?family=Arimo|Fjalla+One|Gloria+Hallelujah|Kanit|Orbitron|Oswald|Pragati+Narrow|Rationale|Shadows+Into+Light+Two|Patua+One');
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/*  ***************************************************************************************************** */
+/*  				DESKTOP
+/*  ***************************************************************************************************** */
+/* ORGANITZACIO FILES I 12 COLUMNES */
+.fila::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+.filaBuida{
+    content: "";
+    clear: both;
+    display: block;
+	width:100%;
+	height: 20px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 0px;
+    border: 0;
+	white-space: nowrap;
+}
+
+.col-0 {width: 0%;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body {
+	font-family: 'Roboto Slab';
+	background: #FDFDFD;
+}
+
+a {
+	text-decoration:none;
+}
+
+
+
+/*  ***************************************************************************************************** */
+/*  				DEFINICIÓ DE LA PART DE TABLET
+/*  ***************************************************************************************************** */
+
+@media screen and (max-width:1024px) {
+	body {
+		/* Així permetem que tot comenci després de la barra del menú */
+		padding-top:80px;
+	}
+	
+		[class*="m-col-"] {
+		float: left;		
+	}
+	
+	.t-col-0 {display:none; height:0px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+	.t-col-1 {width:25%;}
+	.t-col-2 {width:50%;}
+	.t-col-3 {width:75%;}
+	.t-col-4 {width:100%;}
+	
+}
+
+/*  ***************************************************************************************************** */
+/*  				DEFINICIÓ DE LA PART DE MÒBIL
+/*  ***************************************************************************************************** */
+
+@media screen and (max-width:600px) {
+	body {
+		/* Així permetem que tot comenci després de la barra del menú */
+		padding-top:80px;
+	}
+	
+		[class*="m-col-"] {
+		float: left;		
+	}
+	
+	.m-col-1 {width: 33.33%;}
+	.m-col-2 {width: 66.66%;}
+	.m-col-3 {width: 100%;}
+	.m-col-0 {display:none; height:0px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+	.m-col-meitat {width:50%}
+	
+	.m-col-14 {width:25%;}
+	.m-col-24 {width:50%;}
+	.m-col-34 {width:75%;}
+	.m-col-44 {width:100%;}
+	
+}
+
+
+/****************************************************************************************************/
+/* DEFINICIÓ ELEMENTS GLOBALS */
+/****************************************************************************************************/	
+
+/* COLORS DE TEXT */
+.colorPrincipal {color: #1AA393;}
+.colorSecundari {color:#484848;}
+.colorOK {color: #00B900;}
+.colorKO {color: #ff0000;}
+.colorBlanc {color:#ffffff;}
+.colorNegre {color:#000000;}
+.colorGrisFosc {color:#505050;}
+.colorGris {color:#7e7e7e;}
+.colorGrisClar {color:#aeaeae;}
+.colorGrisMoltClar {color:#f1f4f7;}
+.colorPrimeraVolta {color: #FFFF33;} 
+.colorSegonaVolta {color: #FF9A00;}
+.colorTerceraVolta {color: #4DB6AC;}
+.colorMorat {color:#F20CEB;}
+.colorMenuLateral {color:#2d3c4b;}
+
+/* COLORS DE FONS */
+.fonsPrincipal {background-color: #1AA393;}
+.fonsSecundari {background-color: #484848;}
+.fonsBlanc {background-color:#ffffff;}
+.fonsNegre {background-color:#000000;}
+.fonsGrisFosc {background-color:#505050;}
+.fonsGris {background-color:#7e7e7e;}
+.fonsGrisClar {background-color:#aeaeae;}
+.fonsGrisMoltClar {background-color:#f1f4f7;}
+.fonsPrimeraVolta {background-color: #FFFF33;} 
+.fonsSegonaVolta {background-color: #FF9A00;}
+.fonsTerceraVolta {background-color: #4DB6AC;}
+.fonsOK {background-color: #00B900;}
+.fonsKO {background-color: #ff0000;}
+.fonsMenuLateral {background-color:#2d3c4b;}
+
+/* MIDES DE TEXT */
+.text150 {font-size:150pt;}
+.text100 {font-size:100pt;}
+.text75 {font-size:75pt;}
+.text48 {font-size:48pt;}
+.text45 {font-size:45pt;}
+.text42 {font-size:42pt;}
+.text36 {font-size:36pt;}
+.text30 {font-size:30pt;}
+.text24 {font-size:24pt;}
+.text18 {font-size:18pt;}
+.text12 {font-size:12pt;}
+.text10 {font-size:10pt;}
+.text8 {font-size:8pt;}
+.text6 {font-size:6pt;}
+
+/* PADDINGS */
+.padding0 {padding: 0px 0px 0px 0px;}
+.padding0T {padding-top:0px;}
+.padding0R {padding-right:0px;}
+.padding0B {padding-bottom:0px;}
+.padding0L {padding-left:0px;}
+
+.padding5 {padding: 5px 5px 5px 5px;}
+.padding5T {padding-top:5px;}
+.padding5R {padding-right:5px;}
+.padding5B {padding-bottom:5px;}
+.padding5L {padding-left:5px;}
+
+.padding10 {padding: 10px 10px 10px 10px;}
+.padding10T {padding-top:10px;}
+.padding10R {padding-right:10px;}
+.padding10B {padding-bottom:10px;}
+.padding10L {padding-left:10px;}
+
+.padding20 {padding: 20px 20px 20px 20px;}
+.padding20T {padding-top:20px;}
+.padding20R {padding-right:20px;}
+.padding20B {padding-bottom:20px;}
+.padding20L {padding-left:20px;}
+
+.padding30 {padding: 30px 30px 30px 30px;}
+.padding30T {padding-top:30px;}
+.padding30R {padding-right:30px;}
+.padding30B {padding-bottom:30px;}
+.padding30L {padding-left:30px;}
+
+/* MARGES */
+.marges0 {margin: 0px 0px 0px 0px;}
+.marges0T {margin-top: 0px;}
+.marges0R {margin-right: 0px;}
+.marges0B {margin-bottom: 0px;}
+.marges0L {margin-left: 0px;}
+
+.marges5 {margin: 5px 5px 5px 5px;}
+.marges5T {margin-top: 5px;}
+.marges5R {margin-right: 5px;}
+.marges5B {margin-bottom: 5px;}
+.marges5L {margin-left: 5px;}
+
+.marges10 {margin: 10px 10px 10px 10px;}
+.marges10T {margin-top: 10px;}
+.marges10R {margin-right: 10px;}
+.marges10B {margin-bottom: 10px;}
+.marges10L {margin-left: 10px;}
+
+.marges20 {margin: 20px 20px 20px 20px;}
+.marges20T {margin-top: 20px;}
+.marges20R {margin-right: 20px;}
+.marges20B {margin-bottom: 20px;}
+.marges20L {margin-left: 20px;}
+ 
+.marges30 {margin: 30px 30px 30px 30px;}
+.marges30T {margin-top: 30px;}
+.marges30R {margin-right: 30px;}
+.marges30B {margin-bottom: 30px;}
+.marges30L {margin-left: 30px;}
+
+/* ESTILS LLETRES */
+.textNegreta {font-weight:bold;}
+.textNormal {font-weight:normal;}
+.textSubratllat {font-weight:underline;}
+
+.textJustificat {text-align:justify;}
+.textEsquerra {text-align:left;}
+.textDreta {text-align:right;}
+.textCentrat {text-align:center;}
+
+.fontPrincipal {font-family: 'Fjalla One';}
+.fontSecundaria {font-family: Oswald;}
+.fontMenu {font-family: 'Patua One';}
+
+/* IMATGES */
+.imatgeCentrada {margin: 0 auto;}
+
+/* GENERAL */
+.alineacioTop {vertical-align:top;}
+.alineacioMiddle {vertical-align:middle;}
+.alineacioBottom {vertical-align:bottom;}
+.alineacioTop10 {vertical-align:10px;}
+
+
+/* DEFINICIO SECCIONS */
+.contingut {	
+	padding: 30px 30px 30px 30px;
+	font-family: Marvel;	
+}
+
+.midaFixa {min-width:100%;}
+
+.peu {
+	background: #737373;
+	width:100%;
+	padding:30px 0 0 0;
+	margin:0;
+	border: 0px;
+	font-family: Marvel, 'Roboto Condensed', Arial;
+	font-size: 16pt;		
+}
+
+
+
+
+/******************************************************************************************/
+/*                  INTERFICIE USUARI: BOTONS, FORMS, etc.								  */
+/******************************************************************************************/
+
+.formulari {	
+	margin: 0 30px 0 30px;	
+	font-family: Marvel, 'Roboto Condensed', Arial;	
+	text-decoration:none;	
+}
+
+.borderRodo {
+	border-radius: 7px;
+}
+
+.boto {
+    border: 1px solid #4BB7D9;
+    padding: 8px 12px; 
+    background: #4BB7D9;
+    border-radius: 10px;
+    font-family: 'Roboto Slab';
+    font-weight:bold;
+    font-size: 16px;
+    color:#ffffff;
+    text-decoration:none;
+	
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;	
+	transition:.5s;
+}
+
+.botoSeleccionat {
+    border: 1px solid #2d3c4b;
+    padding: 8px 12px; 
+    background: #f1f4f7;
+    border-radius: 10px;
+    font-family: 'Roboto Slab';
+    font-weight:bold;
+    font-size: 16px;
+    color:#2d3c4b;
+    text-decoration:none;
+	
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;	
+	transition:.5s;
+}
+
+.botoGran {
+    border: 1px solid #4BB7D9;
+    padding: 8px 12px; 
+    background: #4BB7D9;
+    border-radius: 10px;
+    font-family: 'Roboto Slab';
+    font-weight:bold;
+    font-size: 20px;
+    color:#ffffff;
+    text-decoration:none;
+	
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;	
+	transition:.5s;
+}
+
+.boto:hover {
+    border: 1px solid #484848;
+    padding: 8px 12px; 
+    background: #484848;
+    border-radius: 8px;
+    font-family: 'Roboto Slab';
+    font-weight:bold;
+    font-size: 16px;
+    /*color:#ccac00;*/
+    text-decoration:none;
+}
+
+.boto-rodo {
+    border: 1px solid #4BB7D9;
+    padding: 8px 11px 5px 11px;
+    background: #4BB7D9;
+    border-radius: 70px;
+    font-family: Arial;
+    font-weight:bold;
+    font-size: 30px;
+    color:#ffffff;
+    text-decoration:none;
+	
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;	
+	transition:.5s;
+}
+
+.boto-rodo:hover {
+    border: 1px solid #484848;
+    padding: 8px 11px 5px 11px; 
+    background: #484848;
+    border-radius: 70px;
+    font-family: Arial;
+    font-weight:bold;
+    font-size: 30px;
+    /*color:#ccac00;*/
+    text-decoration:none;
+}
+ 
+.objecteForm {
+  font-family : Marvel, Arial;
+  font-size   : 14pt;
+  color: #000000;
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+  -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+  box-sizing: border-box;
+  /*background-color : #e9e9e9;*/
+  padding: 2px 2px 2px 2px;
+  border: solid 1px #4BB7D9;  
+}
+
+.objecteFormPetit {
+  font-family : Marvel, Arial;
+  font-size   : 10pt;
+  color: #000000;
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+  -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+  box-sizing: border-box;
+  /*background-color : #e9e9e9;*/
+  padding: 2px 2px 2px 2px;
+  border: solid 1px #4BB7D9;  
+}
+
+.ampladaObjecte50 {width:50px;}
+.ampladaObjecte80 {width:75px;}
+.ampladaObjecte100 {width:100px;}
+.ampladaObjecte150 {width:150px;}
+.ampladaObjecte200 {width:200px;}
+.ampladaObjecte250 {width:250px;}
+.ampladaObjecte300 {width:300px;}
+.ampladaObjecte350 {width:350px;}
+.ampladaObjecte400 {width:400px;}
+.ampladaObjecte450 {width:450px;}
+.ampladaObjecte500 {width:500px;}
+.ampladaObjecte550 {width:550px;}
+.ampladaObjecte600 {width:600px;}
+.ampladaObjecte650 {width:650px;}
+.ampladaObjecte700 {width:700px;}
+.ampladaObjecte750 {width:750px;}
+.ampladaObjecte800 {width:800px;}
+.ampladaObjecte80P {width:80%;}
+.ampladaObjecte90P {width:90%;}
+.ampladaObjecte95P {width:95%;}
+.ampladaObjecte100P {width:100%;}
+
+.alcadaObjecte30 {height:30px;}
+.alcadaObjecte40 {height:40px;}
+.alcadaObjecte50 {height:50px;}
+.alcadaObjecte100 {height:100px;}
+.alcadaObjecte150 {height:150px;}
+.alcadaObjecte200 {height:200px;}
+.alcadaObjecte250 {height:250px;}
+.alcadaObjecte80P {height:80%;}
+.alcadaObjecte85P {height:85%;}
+.alcadaObjecte90P {height:90%;}
+.alcadaObjecte95P {height:95%;}
+.alcadaObjecte100P {height:100%;}
+
+label {
+	text-align: left-side;
+	width: 100%;
+}
+
+.chkbox[type=checbox] {
+	width:0px;
+	background-color: #ffffff;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	border: solid 3px #4DB6AC;	
+}
+
+.linia {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #f1f4f7;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+/*textarea {
+  font-family : Marvel, Arial;
+  font-size   : 12pt;
+  color: #000000;
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+  /*-moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+  /*box-sizing: border-box;
+  background-color : #e9e9e9;
+  padding: 2px 0px 0px 0px;
+  border: solid 3px #fff;
+  width:500px;
+}*/
+
+.textLOPD {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+ .bloquejat {
+	pointer-events: none;		
+}
+
+.ambBorder {
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+  -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+  box-sizing: border-box;
+  border: solid 1px #4DB6AC;  
+}
+
+.objAmagat {
+	display:none;
+}
+
+
+/******************************************************************************************/
+/*    EFECTES, MOVIMENTS, ETC.                                                            */
+/******************************************************************************************/
+
+
+p#controlsImatges {
+  text-align:center;
+}
+#controlsImatges span {
+  padding-right:2em;
+  cursor:pointer;
+}
+#transicioImatges {
+  position:relative;
+  width:100%;
+  height:350px;
+}
+
+#transicioImatges img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity:0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+#transicioImatges img.opaque {
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=1);
+}
+
+.transicio1s{
+	-webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+}
+
+/******************************************************************************************/
+/*    CONFIGURACIÓ SWITCH CHECKBOX                                                            */
+/******************************************************************************************/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #4DB6AC;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #4DB6AC;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.divMoviment {
+	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+	transition: width 2s;
+}
+
+.divExercicis {
+    float: left;
+    width: 35px;
+    height: 50px;
+    margin: 10px;
+    border: 2px solid #4DB6AC;  
+}
+.divExercicisLlegenda {
+    float: left;
+    /*width: 35px;*/
+    height: 30px;
+    margin: 10px;
+    border: 2px solid #4DB6AC;  
+}
+
+/* Tool tip text */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #4BB7D9;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #4BB7D9;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+	left:-50px;
+	top: 25px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
